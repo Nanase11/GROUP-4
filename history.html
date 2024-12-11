@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAMP1kAcJ21AEBqgABKunkAZ4iZAG3C7QBJotEASoC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMyIiIiIiIzMyIkRAAEQiIzIiREBQRCIjMiJEQFBEIiMyIQAAUABCIzJAZmBVUEQiIkBgBlAABBIkQGAGVVUEEiRAZmAAAAESIkBgBgREESIyQGAGBEESIzIgZmBEERIjMyEABEERIjMzIkRBEREiMzMyFxERESMzMzMiIiIiMzMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond the Fibers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Merriweather', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAF3E0;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Roboto', sans-serif;
+            color: #4A3F35;
+        }
+
+        p {
+            line-height: 1.8;
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Navigation Styles */
+        nav {
+            display: flex;
+            justify-content: right;
+            align-items: right;
+            background-color: #E4C087;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #007BFF;
+        }
+
+        /* Main Content Styles */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .content img {
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .content h1 {
+            text-align: right;
+            margin-top: 20px;
+        }
+
+        .content p {
+            text-align: justify;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #4A3F35;
+            color: #FAF3E0;
+            padding: 40px 20px;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .footer-column {
+            flex: 1;
+            min-width: 250px;
+            margin: 10px 20px;
+        }
+
+        .footer-column h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #FAF3E0;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .footer-column p, .footer-column ul {
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 0;
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+            border-top: 1px solid #FAF3E0;
+            padding-top: 20px;
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            .footer-container {
+                flex-direction: column;
+                align-items: right;
+            }
+
+            .footer-column {
+                text-align: right;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="home page.html">Homepage</a>
+        <a href="history.html">History</a>
+        <a href="product.html">Product</a>
+        <a href="culture-and-tradition.html">Culture & Tradition</a>
+        <a href="significance.html">Significance</a>
+    </nav>
+    <!-- Main Content -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond the Fibers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #E4C087;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #DEAA79;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 32px;
+            letter-spacing: 2px;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            width: 80%;
+        }
+        .section img {
+            width: 40%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .content {
+            max-width: 55%;
+            text-align: justify;
+            margin-left: 20px;
+        }
+        h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HISTORY OF ABACA</h1>
+    </header>
+    <main>
+        <div class="section">
+            <img src="precol.jpg" alt="Beyond the Fibers">
+            <div class="content">
+                <h2 style="color: #557C55;">PRE-COLONIAL ERA</h2>
+                <p>Indigenous Filipinos used abaca primarily for making ropes, fishing lines, and traditional clothing. The fibers were known for their durability, making them ideal for daily use. Abaca weaving was a significant skill passed down through generations, especially among communities in the Visayas and Mindanao.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <img src="spanish.jpg" alt="Abaca Handicrafts">
+            <div class="content">
+                <h2 style="color: #557C55;">SPANISH COLONIAL PERIOD</h2>
+                <p>The Spanish colonizers recognized the commercial potential of abaca. By the early 19th century, the abaca trade began to flourish as global demand for ropes increased, especially for ship rigging. By the mid-19th century, abaca became one of the Philippines' top export products, alongside sugar and tobacco. The term "Manila hemp" became synonymous with abaca, linking it to the Philippines' capital city, a major trading hub.</p>
+            </div>
+        </div>
+   <div class="section">
+            <img src="american.jpg" alt="Abaca Handicrafts">
+            <div class="content">
+                <h2 style="color: #557C55;">AMERICAL COLONIAL PERIOD</h2>
+                <p>The Americans further industrialized the abaca industry, introducing improved farming methods and machinery to increase productivity. During the Japanese occupation, abaca plantations suffered significant damage. However, its strategic importance for producing ropes and war materials made it a high-priority crop.</p>
+            </div>
+        </div>
+ <div class="section">
+            <img src="post.jpg" alt="Abaca Handicrafts">
+            <div class="content">
+                <h2 style="color: #557C55;">POST-WAR PERIOD</h2>
+                <p>After World War II, efforts were made to rehabilitate the abaca industry. The Philippines regained its status as the leading producer of abaca worldwide. Beyond ropes, abaca fibers began to be used for specialty papers (e.g., currency, tea bags), textiles, and other industrial applications</p>
+            </div>
+        </div>
+ <div class="section">
+            <img src="modern.jpg" alt="Abaca Handicrafts">
+            <div class="content">
+                <h2 style="color: #557C55;">MODERN ERA</h2>
+                <p>The Philippines remains the world’s largest producer of abaca, accounting for over 85% of global supply. Major production areas include Bicol, Eastern Visayas, and Mindanao. Today, abaca is valued for its eco-friendly qualities and is increasingly used in biodegradable products, reinforcing the Philippines' role in sustainable agriculture and global trade.</p>
+            </div>
+        </div>
+ </main>
+    
+</body>
+</html>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Footer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #DEAA79;
+    }
+
+    footer {
+      background-color:#DEAA79;
+      color: #fff;
+      padding: 40px 20px;
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .footer-column {
+      flex: 1;
+      min-width: 250px;
+      margin: 10px 20px;
+    }
+
+    .footer-column h3 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #fff;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .footer-column p {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-column ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer-column ul li a {
+      text-decoration: none;
+      color: #ddd;
+      font-size: 14px;
+      transition: color 0.3s;
+    }
+
+    .footer-column ul li a:hover {
+      color: #DEAA79;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      text-decoration: none;
+      color: #DEAA79;
+      font-size: 20px;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #ffcc00;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      border-top: 1px solid #444;
+      padding-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .footer-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .footer-column {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <footer>
+    <div class="footer-container">
+      <!-- About Section -->
+      <div class="footer-column">
+        <h3>About</h3>
+      <p style="text-align: justify;"> Beyond the Fibers is more than just a company; it is a movement rooted in sustainability, innovation, and community. At its heart, the company values the interconnectedness of nature and human life, using abaca as a symbol of resilience, strength, and renewal. The company believes that every fiber of abaca carries a story — a story of the land it grows in, the hands that cultivate it, and the lives it touches.</p>
+      </div>
+      <!-- Subjects -->
+      <div class="footer-column">
+        <h3>Subjects</h3>
+        <ul>
+        <p> Empowerment Technology </p>
+        <p> Media and Information Literacy </p>
+        <p> Contemporary Philippines Art from the Region </p>
+        </ul>
+      </div>
+      <!-- Members -->
+      <div class="footer-column">
+        <h3>Members</h3>
+        <ul>
+        <p>Calibo, Aljon R.</p>
+        <p>David, Jose Franco P.</p>
+        <p>Landicho, Charls Larry E.</p>
+        <p>Samarita, King Leo H.</p>
+        <p> Atienza, Cristine Erika B.</p>
+        <p> Malihan, Eliza Mae J.</p>
+        <p> Villegas, Trisha Faye L.</p>
+        </ul>
+      </div>
+    </div>
+    <!-- Subjects -->
+    <div class="footer-bottom">
+      <div class="Subjects">
+      </div>
+      <p>© 2024 All Rights Reserved | Threads of Nature, Woven from Life</p>
+    </div>
+  </footer>
+
+</body>
+</html>
